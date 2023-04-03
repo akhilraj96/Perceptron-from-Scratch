@@ -117,8 +117,8 @@ def main():
     epochs = 20
 
     # read data
-    traindata = "train.data"
-    testdata = "test.data"
+    traindata = "data/train.data"
+    testdata = "data/test.data"
     
     X_train, Y_train = read_data(traindata)
     X_test, Y_test = read_data(testdata)
